@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Box with Image Navbar</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 50px;
+            font-family: Arial, sans-serif;
+        }
+
+        
+
+        .navbar {
+            background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWl47fpILplldEYnzsW_5fNR_Gpoaz08W1DbS9Hd4FCV2CFHk18uNksb27kchqAOmysD0&usqp=CAU') center/cover no-repeat; /* Replace 'navbar-background.jpg' with your navbar background image path */
+            padding: 100px;
+            text-align: center;
+        }
+
+        .search-box {
+            display: inline-block;
+            margin-right: 20px;
+            
+        }
+
+        .search-input {
+            padding: 15px;
+            width: 350px;
+        }
+        .image-container {
+            background-color: #f9d9eb; 
+            padding: 30px;
+            display: flex;
+            justify-content: space-between;
+           align-items: center;
+        }
+
+        .image-container img {
+            width: 150px; 
+            height: 150px; 
+            transition: transform 0.3s ease-in-out;
+            border-radius: 50%;
+            object-fit: cover;
+            
+            
+        }
+
+        .image-container img:hover {
+            transform: scale(1.1); 
+        }
+        .image-container figure {
+            text-align: center;
+        }
+        .box {
+           background-color: rgb(241, 128, 128);
+           border: 2px solid rgb(241, 128, 128);
+           border-radius: 2px;
+           box-shadow:rgb(241, 128, 128) ;
+           padding-left: 50px;
+        }
+        
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+       
+    </div>
+
+    <div class="navbar">
+        <div class="search-box">
+            <input type="text" class="search-input" placeholder="Search">
+            
+        </div>
+    </div>
+
+    <div class="image-container">
+        <figure>
+        <img src="https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcTiCxXcyNxBKgWT2_t-TQQ_DTFFEnfQz9p1OT5WTg4vaJ4eUE_OPh6Vvd4qxWJop6-w" alt="Image 1">
+        <figcaption class="image-caption">Cappuccino</figcaption>
+    </figure>
+    <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Tazzina_di_caffè_a_Ventimiglia.jpg" alt="Image 2">
+        <figcaption class="image-caption">Espresso</figcaption>
+    </figure>
+    <figure>
+
+
+        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQJppQpvbjiWse0QeBv0e2EstBXGOP1K80eAv9S0qPks2CDkhhc" alt="Image 3">
+        <figcaption class="image-caption">Latte</figcaption>
+        </figure>
+        <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Flat_white_coffee_with_pretty_feather_pattern.jpg" alt="Image 4">
+        <figcaption class="image-caption">Flat White</figcaption>
+        </figure>
+        </div>
+        <div class="box">
+        <h2>Coffee-House</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error recusandae iure<br> illum nihil non reiciendis laborum et consequatur fugit. Lorem ipsum dolor, sit amet<br> consectetur adipisicing elit. Ex illum earum maiores necessitatibus vero officia expedita,<br> ad odio omnis distinctio facere perferendis quas repellat alias quos incidunt dolor beatae<br> quia. Numquam aliquam molestias nostrum sequi. Doloremque libero ex voluptas natus,<br> corporis provident esse, obcaecati tenetur inventore, odit labore pariatur officia corrupti<br> suscipit debitis sequi quod nihil? Adipisci vel laborum voluptate iusto optio commodi<br> quibusdam repudiandae accusantium molestiae officiis reprehenderit nulla nostrum dolore<br> corporis libero, quaerat accusamus cupiditate ex quisquam enim eum id cum. Neque,<br> eaque? Accusantium quae magnam laudantium necessitatibus, neque praesentium ullam<br> voluptates fugit unde, aliquam dignissimos? Asperiores, blanditiis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error recusandae iure<br> illum nihil non reiciendis laborum et consequatur fugit. Lorem ipsum, dolor sit amet<br> consectetur adipisicing elit. Consequatur numquam fugiat quibusdam voluptates inventore,<br> corrupti assumenda pariatur, maiores est eius sunt ipsa et quasi labore voluptatem odit<br> adipisci molestiae esse, dicta illum? Natus, tempora doloribus! Ab molestias quidem alias,<br> assumenda perferendis mollitia aliquam dolor totam voluptatem? Beatae nisi fugit<br> cupiditate.</p>  
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error recusandae iure<br> illum nihil non reiciendis laborum et consequatur fugit. Lorem ipsum dolor, sit amet<br> consectetur adipisicing elit. Ex illum earum maiores necessitatibus vero officia expedita,<br> ad odio omnis distinctio facere perferendis quas repellat alias quos incidunt dolor beatae<br> quia. Numquam aliquam molestias nostrum sequi. Doloremque libero ex voluptas natus,<br> corporis provident esse, obcaecati tenetur inventore, odit labore pariatur officia corrupti <br>suscipit debitis sequi quod nihil? Adipisci vel laborum voluptate iusto optio commodi<br> quibusdam repudiandae accusantium molestiae officiis reprehenderit nulla nostrum dolore<br> corporis libero, quaerat accusamus cupiditate ex quisquam enim eum id cum. Neque,<br> eaque? Accusantium quae magnam laudantium necessitatibus, neque praesentium ullam <br>voluptates fugit unde, aliquam dignissimos? Asperiores, blanditiis.</p>
+<div class="box1">
+
+   <h1>
+    Coffee list
+   </h1>
+   <ol>
+    <li>Coffee-1</li>
+    <li>Coffee-2</li>
+    <li>Coffee-3</li>
+    <li>Coffee-4</li>
+   </ol>
+ <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error recusandae iure illum nihil non reiciendis laborum et consequatur fugit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex illum earum maiores necessitatibus vero officia expedita, ad odio omnis distinctio facere perferendis quas repellat alias quos incidunt dolor beatae quia. Numquam aliquam molestias nostrum sequi. Doloremque libero ex voluptas natus, corporis provident esse, obcaecati tenetur inventore, odit labore pariatur officia corrupti suscipit debitis sequi quod nihil? Adipisci vel laborum voluptate iusto optio commodi quibusdam repudiandae accusantium molestiae officiis reprehenderit nulla nostrum dolore corporis libero, quaerat accusamus cupiditate ex quisquam enim eum id cum. Neque, eaque? Accusantium quae magnam laudantium necessitatibus, neque praesentium ullam voluptates fugit unde, aliquam dignissimos? Asperiores, blanditiis.</p>
+</div>
+
+        </div>
+
+
+    </div>
+</body>
+</html>
